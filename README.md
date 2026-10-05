@@ -63,7 +63,6 @@ python agent.py
 Run the tests:
 
 ```bash
-pip install pytest
 pytest
 ```
 
