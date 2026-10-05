@@ -66,9 +66,45 @@ Run the tests:
 pytest
 ```
 
+
+
 ## Example conversation
 
-<!-- Paste a short real conversation from your agent here -->
+A couple travelling with their dog books a hotel. The agent searches, checks each hotel's pet policy on its own, answers follow-up questions from the hotel data, and books only after the user approves in the terminal.
+
+```
+You: Hi! We're two people looking for a hotel in Antalya from October 20 to 24, with breakfast, under 100 euros a night. We're travelling with our dog.
+[tool] search_hotels({'check_out': '2026-10-24', 'guests': 2, 'city': 'Antalya', 'max_price': 100, 'check_in': '2026-10-20', 'board_type': 'breakfast'})
+[tool] get_hotel_details({'hotel': 'Aurora Beach Resort'})
+[tool] get_hotel_details({'hotel': 'Lara Pine Hotel'})
+[tool] get_hotel_details({'hotel': 'Kaleici Garden Suites'})
+Agent: I have found two great pet-friendly options in Antalya for your stay from October 20 to October 24, 2026 (4 nights) for 2 guests, including breakfast and under your budget of 100 EUR per night!
+
+1. Lara Pine Hotel (4 Stars): Double €95/night (€380 total), Twin €92/night (€368 total).
+   Pet Policy: Dogs are welcome! Cancellation: Free cancellation up to 3 days before check-in.
+2. Kaleici Garden Suites (4 Stars): Double €88/night (€352 total).
+   Pet Policy: Dogs are welcome! Cancellation: Non-refundable.
+
+Which of these would you prefer? …
+
+You: How far is Lara Pine Hotel from the beach, and can we cancel for free?
+Agent: The Lara Pine Hotel is located 0.8 km (about 800 meters) from the beach, which is a very short and pleasant walk.
+As for cancellation, yes, you can cancel for free up to 3 days before your check-in date (by October 17, 2026). …
+
+You: Great, we'll take the double room at Lara Pine.
+Agent: Excellent choice! Before we proceed, here is a summary of your booking request:
+Hotel: Lara Pine Hotel · Double Room · Breakfast included · October 20 to October 24, 2026 (4 nights) · 2 guests · €380
+To finalize this booking, could you please provide the full name of the lead guest …
+
+You: Ada Yilmaz
+[tool] create_booking({'guests': 2, 'check_in': '2026-10-20', 'guest_name': 'Ada Yilmaz', 'room_id': 'R004', 'check_out': '2026-10-24'})
+Confirm booking? (y/n)y
+Agent: Your booking is now confirmed! Here are the details of your stay:
+Booking ID: B001 · Lara Pine Hotel (Antalya) · Double Room · Ada Yilmaz · 2 guests · October 20 to October 24, 2026 (4 nights) · Breakfast included · €380
+… Have a wonderful trip to Antalya!
+```
+
+Aurora Beach Resort matched the search but was left out because it doesn't allow pets.
 
 ## Roadmap
 
