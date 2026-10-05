@@ -1,0 +1,36 @@
+room_id,hotel_id,hotel_name,city,stars,board_type,room_type,max_guests,price_per_night_eur,available_from,available_to,rooms_left
+R001,H001,Aurora Beach Resort,Antalya,4,BB,Double,2,85,2026-10-01,2026-10-31,3
+R002,H001,Aurora Beach Resort,Antalya,4,HB,Double,2,112,2026-10-01,2026-10-31,2
+R003,H001,Aurora Beach Resort,Antalya,4,BB,Family,4,140,2026-10-01,2026-10-31,1
+R004,H002,Lara Pine Hotel,Antalya,4,BB,Double,2,95,2026-10-01,2026-11-15,1
+R005,H002,Lara Pine Hotel,Antalya,4,BB,Twin,2,92,2026-10-01,2026-11-15,4
+R006,H003,Konyaalti Bay Hotel,Antalya,4,BB,Double,2,105,2026-10-01,2026-12-20,6
+R007,H004,Olive Coast Hotel,Antalya,4,BB,Double,2,78,2026-10-01,2026-10-31,0
+R008,H005,Kaleici Garden Suites,Antalya,4,BB,Double,2,88,2026-10-14,2026-11-30,5
+R009,H006,Sunset Lagoon Resort,Antalya,5,AI,Double,2,160,2026-10-01,2026-11-10,8
+R010,H006,Sunset Lagoon Resort,Antalya,5,AI,Family,4,245,2026-10-01,2026-11-10,2
+R011,H007,Harbour View Inn,Antalya,3,RO,Double,2,45,2026-10-01,2026-12-31,10
+R012,H007,Harbour View Inn,Antalya,3,BB,Single,1,38,2026-10-01,2026-12-31,4
+R013,H008,Taurus Mountain Lodge,Antalya,3,HB,Double,2,70,2026-10-01,2026-10-25,2
+R014,H009,Galata Terrace Hotel,Istanbul,4,BB,Double,2,120,2026-10-01,2026-12-31,5
+R015,H009,Galata Terrace Hotel,Istanbul,4,RO,Double,2,104,2026-10-01,2026-12-31,5
+R016,H010,Bosphorus Pearl Hotel,Istanbul,5,BB,Double,2,210,2026-10-01,2026-12-31,3
+R017,H010,Bosphorus Pearl Hotel,Istanbul,5,BB,Suite,3,390,2026-10-01,2026-12-31,1
+R018,H011,Sultanahmet Courtyard,Istanbul,3,BB,Double,2,75,2026-10-01,2026-11-30,7
+R019,H011,Sultanahmet Courtyard,Istanbul,3,BB,Triple,3,98,2026-10-01,2026-11-30,0
+R020,H012,Kadikoy Loft Hotel,Istanbul,4,BB,Double,2,99,2026-11-01,2026-12-31,4
+R021,H013,Nisantasi Boutique,Istanbul,4,BB,Double,2,135,2026-10-01,2026-12-31,2
+R022,H014,Aegean Breeze Resort,Bodrum,5,AI,Double,2,175,2026-10-01,2026-10-20,4
+R023,H014,Aegean Breeze Resort,Bodrum,5,AI,Family,4,260,2026-10-01,2026-10-20,1
+R024,H015,Gumbet Sands Hotel,Bodrum,4,HB,Double,2,90,2026-10-01,2026-10-31,3
+R025,H015,Gumbet Sands Hotel,Bodrum,4,BB,Double,2,72,2026-10-01,2026-10-31,3
+R026,H016,Yalikavak Marina Suites,Bodrum,5,BB,Suite,2,280,2026-10-01,2026-11-15,2
+R027,H017,Turgutreis Garden Hotel,Bodrum,3,BB,Double,2,58,2026-10-01,2026-10-15,6
+R028,H018,Marina Crest Hotel,Dubai,4,BB,Double,2,140,2026-10-01,2026-12-31,9
+R029,H018,Marina Crest Hotel,Dubai,4,RO,Double,2,118,2026-10-01,2026-12-31,9
+R030,H019,Desert Rose Palace,Dubai,5,HB,Double,2,320,2026-10-01,2026-12-31,4
+R031,H019,Desert Rose Palace,Dubai,5,BB,Family,4,410,2026-10-01,2026-12-31,1
+R032,H020,Deira Creek Inn,Dubai,3,RO,Double,2,65,2026-10-01,2026-12-31,12
+R033,H020,Deira Creek Inn,Dubai,3,BB,Single,1,55,2026-10-01,2026-12-31,0
+R034,H021,Downtown Skyline Hotel,Dubai,4,BB,Double,2,165,2026-12-15,2026-12-31,3
+R035,H022,Palm Shore Retreat,Dubai,5,AI,Double,2,450,2026-10-01,2026-12-31,2
